@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FEFDED;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .navbar {
+    background-color: #ec4646;
+    padding: 1rem;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    font-size: 2rem;
+    color: #090808;
+    font-family: 'Impact';
+  }
+  
+  .btn-dark-mode {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #C6EBC5;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .btn-dark-mode:hover {
+    background-color: #A1C398;
+  }
+  body.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  body.dark-mode .navbar {
+    background-color: #A1C398;
+  }
+  body.dark-mode .btn-dark-mode {
+    background-color: #f41818;
+    color: #fff;
+  }
+  
+  body.dark-mode .btn-dark-mode:hover {
+    background-color: #5265f2;
+  }
+  
+  .modal-content {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+  }
+  .modal-header {
+    background-color: #adbccc;
+    color: #fff;
+  }
+  
+  .modal-body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .modal-footer {
+    background-color: #f1f1f1;
+  }
+  
+  .modal-footer .btn {
+    border-radius: 5px;
+  }
+  
+  .modal-title {
+    font-size: 1.5rem;
+  }
+  
+  .modal .form-label {
+    font-weight: bold;
+    color: #333;
+  }
+  .card {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .btn-outline-dark {
+    border-color: #343a40;
+    color: #343a40;
+  }
+  body.dark-mode .btn-outline-dark {
+    border-color: #f8f9fa; 
+    color: #f8f9fa; 
+  }
+  .dashboard .form-label{
+    color: #f1f1f1;
+  }
+
+  :root {
+    --bg: #ffffff;
+    --text: #000000;
+    --card: #f0f0f0;
+    --border: #ccc;
+    --button: #007bff;
+    --button-text: #fff;
+  }
+
+  [data-theme="dark"] {
+    --bg: #121212;
+    --text: #e0e0e0;
+    --card: #1f1f1f;
+    --border: #444;
+    --button: #1e88e5;
+    --button-text: #fff;
+  }
+  taskform{
+    background-color: #6ad9ef;
+
+  }
+
+  body {
+    background-color: #007bff;
+    font-family: 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    background-color: rgb(244, 184, 71);
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+
+  .toggle-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: var(--card);
+    border-radius: 8px;
+    box-shadow: 0 0 10px orchid;
+  }
+  .container{
+    background-color: #eaeff0;
+
+  }
+  
+
+  input, select, textarea {
+    background-color: #6ad9ef;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--text);
+    border-radius: 4px;
+  }
+
+  button {
+    background-color: #007bff;
+    background: var(--button);
+    color: var(--button-text);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    opacity: 0.9;
+  }
+
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    background-color: #6ad9ef;
+    padding: 10px;
+    border: 1px solid var(--border);
+    text-align: left;
+  }
+
+  th {
+    background-color: #6ad9ef;
+    background: var(--bg);
+  }
+
+  .actions button {
+    margin-right: 5px;
+  }
